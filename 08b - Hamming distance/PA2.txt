@@ -1,0 +1,12 @@
+
+no pair of nodes with "all but 2 bits in common" get split into different clusters
+
+24 bits in common
+minimum spacing of 3
+
+test1.txt
+---------
+
+spacing = 3:	maxHammingDistance = 2:		clusters = 2	1 (0) & all the rest
+spacing = 2:	maxHammingDistance = 3:		clusters = 3	1 (0), 5 (4) & all the rest
+
